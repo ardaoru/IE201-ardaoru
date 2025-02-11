@@ -1,1 +1,1 @@
-sds
+print("hello world")
