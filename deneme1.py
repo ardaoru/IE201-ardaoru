@@ -1,2 +1,2 @@
 print("deneme123")
-print("deneme2345678")
+print("push deneme")
