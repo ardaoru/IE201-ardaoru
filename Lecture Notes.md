@@ -20,6 +20,23 @@ Class ile function arasındaki fark class içerisi execute ediliyor. Function ç
 
 ***Çağrılmadığı müddetçe functionın namespacei yok, function call un namespacesi var.***
 
+## 10.03 5-1
+Class is a collection of variables & functions.
+
+### **Namespace Example**: 
+
+i - 5  
+f ( ) - ... "Description of function"  
+Apple - **New namespace**   
+x - **x object namespace** (X is an apple -- *x is an instance object.*)  
+
+**New namespace:**  (*class objects*)  
+type - fruit  
+location - tree  
+drop(pp) - ... "Description of function"
+
+
+
 
 
 
