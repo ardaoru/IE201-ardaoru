@@ -7,7 +7,7 @@ f()
 class Apple:  # class, concept
     type = "fruit"      
     location = "tree" # should be different for each instance
-    def drop(pp):
+    def drop(self):
         #if location == "tree":
          #   print("I dropped")
         #else
@@ -16,6 +16,6 @@ class Apple:  # class, concept
 x = Apple() # object, tangible
 y = Apple()
 
-x.drop()
+x.drop() # Actually calls Apple.drop(x)
 
 print (x.type)
