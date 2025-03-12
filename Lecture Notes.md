@@ -5,7 +5,7 @@ Midtermde namespace sorusu kesin olacak.
 
 ## 03.03 4-1
 Complexity
-![alt text](image.png)
+![alt text](images\image.png)
 
 
 ## 05.03 4-2
@@ -34,6 +34,12 @@ x - **x object namespace** (X is an apple -- *x is an instance object.*)
 type - fruit  
 location - tree  
 drop(pp) - ... "Description of function"
+
+![alt text](images\image2.jpeg)
+
+## 12.03 5-2
+Pazartesi quiz var. Logaritmik kompleksite sorusu da olacak.  
+
 
 
 
