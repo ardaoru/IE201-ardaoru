@@ -181,4 +181,72 @@ for shape in shapes:
 
 
 
+"""
+def reverse_print(lst):
+    if len(lst) == 1:
+        return [lst[0]]
+    
+    rest = reverse_print(lst[:-1])
+
+    return [lst[-1]] + rest
+
+print(reverse_print([1, 2, 3]))"""
+
+
+
+"""
+def reverse_print(lst):
+    if len(lst) == 1:
+        return [lst[0]]
+    
+    rest = reverse_print(lst[1:])
+
+    return  rest + [lst[0]] 
+
+print(reverse_print([1, 2, 3]))"""
+
+
+
+
+"""
+def reverse_string(s):
+    if len(s) == 1:
+        return s
+    return reverse_string(s[1:]) + s[0]
+
+print(reverse_string("hello"))"""
+
+
+
+"""
+
+def is_palindrome(s):
+    lst = list(s)
+    if len(lst) <= 1:
+        return True
+    
+    if lst[0] != lst[-1]:
+        return False
+    
+    return is_palindrome(lst[1:-1])
+
+print(is_palindrome("1221"))"""
+
+
+
+
+"""
+def count_digits(n):
+    if n < 10:
+        return 1
+    
+    return count_digits(n // 10) + 1
+
+
+print(count_digits(1234))"""
+
+
+
+
+
 
