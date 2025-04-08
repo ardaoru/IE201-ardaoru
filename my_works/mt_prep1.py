@@ -248,5 +248,44 @@ print(count_digits(1234))"""
 
 
 
+"""
+result = []
+for x in range(5):
+    if x % 2 == 0:
+        result.append(x)"""
+
+"""
+result = [x for x in range(5) if x % 2 == 0]
+print(result)"""
+
+
+
+
+"""
+result = []
+for x in range(5):
+    if x % 2 == 0:
+        result.append("even")
+    else:
+        result.append("odd")"""
+"""
+result = ["even" if x % 2 == 0 else "odd" for x in range(5)]
+print(result)"""
+
+
+
+
+"""
+result = []
+for x in [1, 2]:
+    for y in [3, 4]:
+        result.append((x, y)) """
+"""
+result = [(x,y) for x in [1,2] for y in [3,4]]
+print(result) """
+
+
+
+
 
 
