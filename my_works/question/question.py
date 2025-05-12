@@ -20,8 +20,8 @@ class City:
         self.schools.append(school)
 
     def __str__(self):
-        school_list = [str(school) for school in self.schools]
-        text_format = ", ".join(school_list)
+        #school_list = [str(school) for school in self.schools]
+        text_format = ", ".join(str(school) for school in self.schools)
         return f"{self.name} => {text_format}"
 
 
@@ -81,3 +81,5 @@ def Run():
 
 
 print(Run())
+
+#"Istanbul => (BU, University), (ITU, University), (DSI, HighSchool, German), (GS, HighSchool, French); Konya => (Selcuk, University), (KAL, HighSchool, English)", "Returned value is wrong"
